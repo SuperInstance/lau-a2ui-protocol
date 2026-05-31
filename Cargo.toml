@@ -1,0 +1,13 @@
+[package]
+name = "lau-a2ui-protocol"
+version = "0.1.0"
+edition = "2021"
+description = "Agent-to-UI protocol — the wire format for multi-target UI state rendering"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-a2ui-protocol"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+bincode = "1"
+
+[dev-dependencies]
